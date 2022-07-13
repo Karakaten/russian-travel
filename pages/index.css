@@ -1,0 +1,68 @@
+@import url(../vendor/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/main.css);
+@import url(../vendor/style.css);
+
+
+
+
+
+/* ––––––––––––––––––––––––––––– pictures */
+
+@import url(../blocks/pictures/pictures.css);
+@import url(../blocks/pictures/__images/pictures__images.css);
+@import url(../blocks/pictures//__image/pictures__image.css);
+
+
+
+/* ––––––––––––––––––––––––––––– header */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
+@import url(../blocks/header/__language/header__language.css);
+
+/* ––––––––––––––––––––––––––––– travel */
+
+@import url(../blocks/travel/__title/travel__title.css);
+@import url(../blocks/travel/__container/travel__container.css);
+@import url(../blocks/travel/__subtitle/travel__subtitle.css);
+@import url(../blocks/travel/__image/travel__image.css);
+@import url(../blocks/travel/__text/travel__text.css);
+
+/* ––––––––––––––––––––––––––––– page */
+
+@import url(../blocks/page/page.css);
+
+
+/* ––––––––––––––––––––––––––––– about */
+
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__lists/about__lists.css);
+@import url(../blocks/about/__span/about__span.css);
+
+/* ––––––––––––––––––––––––––––– tours */
+
+@import url(../blocks/tours/tours.css);
+@import url(../blocks/tours/__title/tours__title.css);
+@import url(../blocks/tours/__url/tours__url.css);
+@import url(../blocks/tours/__link/tours__link.css);
+@import url(../blocks/tours/__text/tours__text.css);
+@import url(../blocks/tours/__image/tours__image.css);
+
+
+/* ––––––––––––––––––––––––––––– footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__name/footer__name.css);
+
+
+/* ––––––––––––––––––––––––––––– footer */
+
+@import url(../blocks/baikal/baikal.css);
+@import url(../blocks/baikal/__link/baikal__link.css);
+@import url(../blocks/baikal/__title/baikal__title.css);
+@import url(../blocks/baikal/__subtitle/baikal__subtitle.css)
