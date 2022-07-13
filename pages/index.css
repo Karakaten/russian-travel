@@ -1,5 +1,5 @@
-@import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../vendor/main.css);
 @import url(../vendor/style.css);
 
@@ -21,7 +21,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__language/header__language.css);
-
+@import url(../blocks/header/__language/_active/header__language_active.css);
 /* ––––––––––––––––––––––––––––– travel */
 
 @import url(../blocks/travel/__title/travel__title.css);

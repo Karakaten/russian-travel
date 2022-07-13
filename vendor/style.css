@@ -1,2 +1,4 @@
-
+div, img, nav, h2, img {
+    border: 1px solid red;
+}
 

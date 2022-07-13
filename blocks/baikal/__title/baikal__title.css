@@ -1,10 +1,12 @@
 .baikal__title {
   max-width: 560px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   color: white;
   font-size: 72px;
   line-height: 76px;
+  margin: 0;
 
 }
 
@@ -12,5 +14,6 @@
   .baikal__title {
     font-size: 32px;
     line-height: 35px;
+    margin-top: 33px;
   }
 }

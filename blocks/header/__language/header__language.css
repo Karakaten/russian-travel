@@ -8,8 +8,8 @@
 }
 
 .header__language:hover {
-  border-bottom: 1px solid white;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .header__language:last-child {
