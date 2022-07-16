@@ -13,5 +13,7 @@
   .tours__url {
     margin-left: 16px;
     margin-top: 32px;
+    margin-bottom: 12px;
+    margin-top: 0;
   }
 }
