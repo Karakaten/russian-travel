@@ -2,19 +2,18 @@
   display: grid;
   justify-items: stretch;
   max-width: 100%;
-  padding-left: 261px;
-  padding-right: 261px;
+  margin: 0 auto;
   margin-top: 92px;
+  padding: 0;
   grid-template-columns: 460px 1fr;
-  gap: 40px 40px;
+  gap: 40px;
   box-sizing: border-box;
+  padding-left: 148px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .tours {
-    grid-template-columns: 440px 1fr;
-    padding-left: 48px;
-    padding-right: 38px;
+    margin: 92px 48px 0 48px;
     gap: 32px;
   }
 }

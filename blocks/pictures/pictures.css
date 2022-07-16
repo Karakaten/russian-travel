@@ -1,4 +1,39 @@
 .pictures {
   max-width: 100%;
-  margin-top: 92px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  gap: 16px;
+  padding-top: 92px;
+
+  margin: 0 48px 0 48px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .pictures {
+    min-width: 300px;
+    min-height: 225px;
+    margin: 0 48px;
+    gap: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .pictures {
+    min-width: 288px;
+    min-height: 216px;
+    margin: 0 24px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .pictures {
+    min-width: 288px;
+    min-height: 216px;
+    margin: 0 16px;
+    gap: 12px;
+  }
 }

@@ -1,12 +1,12 @@
 .footer__name {
-  padding-right: 48px;
   font-size: 14px;
   line-height: 16px;
+  margin: 0;
+  padding-bottom: 24px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer__name {
-    margin-right: 48px;
     margin-top: 0px;
   }
 }
