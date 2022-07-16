@@ -8,6 +8,7 @@
   grid-template-columns: 460px 1fr;
   gap: 40px 40px;
   box-sizing: border-box;
+  padding-left: 148px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
