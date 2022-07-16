@@ -1,20 +1,18 @@
 .tours__link {
-  font-size: 18px;
-  line-height: 22px;
-  color: white;
-  text-decoration: underline;
-  text-align: right;
-  margin-bottom: 0;
-}
 
+    color: white;
+    text-decoration: underline;
+}
 
 .tours__link:hover {
-  opacity: 0.8;
+    opacity: 0.8;
+    ;
+    color: white;
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .tours__link {
-    margin-left: 16px;
-    margin-bottom: 32px;
-  }
+    .tours__link {
+        margin-left: 16px;
+    }
 }

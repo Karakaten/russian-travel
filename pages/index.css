@@ -42,13 +42,15 @@
 
 /* ––––––––––––––––––––––––––––– tours */
 
+@import url(../blocks/tour/tour.css);
 @import url(../blocks/tours/tours.css);
 @import url(../blocks/tours/__title/tours__title.css);
-@import url(../blocks/tours/__url/tours__url.css);
 @import url(../blocks/tours/__link/tours__link.css);
 @import url(../blocks/tours/__text/tours__text.css);
-@import url(../blocks/tours/__image/tours__image.css);
+@import url(../blocks/tours/__texts/tours__texts.css);
 @import url(../blocks/tours/__site/tours__site.css);
+@import url(../blocks/tours/__image/tours__image.css);
+@import url(../blocks/tours/__url/tours__url.css);
 
 /* ––––––––––––––––––––––––––––– footer */
 

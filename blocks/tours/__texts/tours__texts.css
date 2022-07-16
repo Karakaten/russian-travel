@@ -1,0 +1,31 @@
+.tours__texts {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 30px;
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1239px){
+    .tours__texts {
+      max-width: 456px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px){
+    .tours__texts {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    .tours__texts {
+      max-width: 352px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .tours__texts {
+      max-width: 288px;
+      margin-top: 32px;
+      padding-left: 16px;
+    }
+  }

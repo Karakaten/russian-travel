@@ -1,33 +1,29 @@
 .tours__image {
-  width: 100%;
-  max-width: 460px;
-  object-fit: cover;
+    width: 100%;
+    max-width: 460px;
+    object-fit: cover;
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .tours {
-    max-width: 440px;
-    margin: 92px 48px 0 48px;
-    gap: 32px;
-    justify-self: center;
-  }
+@media screen and (min-width: 1024px) and (max-width: 1239px) {
+    .tours__image {
+        justify-self: center;
+        max-width: 440px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .tours {
-    grid-template-columns: 340px 1fr;
-    margin: 0 24px;
-    gap: 28px;
-  }
+    .tours__image {
+        justify-self: center;
+        max-width: 340px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .tours {
-    width: 320px;
-    height: 320px;
-    margin-top: 32px;
+    .tours__image {
+      min-width: 320px;
+      min-height: 320px;
+      margin-top: 32px;
+    }
   }
-}
-
-
+  
