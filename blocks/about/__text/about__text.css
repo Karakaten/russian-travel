@@ -10,23 +10,24 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .about__text {
-    margin-top: 92px;
     padding-left: 48px;
-
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about__text {
-    margin: 0 auto;
-    max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
+ 
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px)and (max-width: 767px) {
   .about__text {
-    margin: 0 auto;
-    max-width: 288px;
-    padding-left: 0;
+    display: flex;
+    padding-right: 0px;
+    min-width: 283px;
+    padding-left: 14px;
+
   }
 }
