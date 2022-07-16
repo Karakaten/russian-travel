@@ -1,7 +1,6 @@
 .travel__text {
   text-transform: uppercase;
-  max-width: 158px;
-  padding-left: 261px;
+  padding-left: 148px;
   margin-top: 8px;
   font-size: 10px;
   line-height: 14px;
@@ -10,20 +9,9 @@
 }
 
 
-@media screen and (min-wdth: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 320px) and (max-width: 1279px) {
   .travel__text {
     padding-left: 0;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .travel__text {
-    padding-left: 0;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .travel__text {
-    padding-left: 0;
-  }
-}

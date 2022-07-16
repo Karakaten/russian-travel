@@ -10,7 +10,6 @@
 /* ––––––––––––––––––––––––––––– pictures */
 
 @import url(../blocks/pictures/pictures.css);
-@import url(../blocks/pictures/__images/pictures__images.css);
 @import url(../blocks/pictures//__image/pictures__image.css);
 
 
@@ -22,6 +21,7 @@
 @import url(../blocks/header/__languages/header__languages.css);
 @import url(../blocks/header/__language/header__language.css);
 @import url(../blocks/header/__language/_active/header__language_active.css);
+
 /* ––––––––––––––––––––––––––––– travel */
 
 @import url(../blocks/travel/__title/travel__title.css);
@@ -60,9 +60,9 @@
 @import url(../blocks/footer/__name/footer__name.css);
 
 
-/* ––––––––––––––––––––––––––––– footer */
+/* ––––––––––––––––––––––––––––– cover */
 
-@import url(../blocks/baikal/baikal.css);
-@import url(../blocks/baikal/__link/baikal__link.css);
-@import url(../blocks/baikal/__title/baikal__title.css);
-@import url(../blocks/baikal/__subtitle/baikal__subtitle.css)
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css)
