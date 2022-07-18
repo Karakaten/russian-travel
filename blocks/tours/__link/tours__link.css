@@ -1,15 +1,13 @@
 .tours__link {
-
     color: white;
     text-decoration: underline;
-}
+    font-size: 18px;
+    line-height: 22px;
+}   
 
 .tours__link:hover {
     opacity: 0.8;
-    ;
-    color: white;
 }
-
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .tours__link {

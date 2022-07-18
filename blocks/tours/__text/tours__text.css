@@ -1,4 +1,8 @@
 .tours__text {
-    margin-top: 0;
-    margin-bottom: 25px;
-  }
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.tours__text:last-child {
+  margin-bottom: 0;
+}

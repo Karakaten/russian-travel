@@ -7,7 +7,6 @@
   aspect-ratio: 16/9;
   display: flex;
   flex-direction: column;
-  position: relative;
   gap: 32px;
   z-index: 2;
   background-image: url(../../../img/cover-trains.jpg);
@@ -15,13 +14,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 92px;
   position: relative;
-
-
 }
 
-.cover__link::before, .cover__link:hover::after{
+.cover__link::before {
   content: '';
   background: #2A2C2F;
   opacity: 0.3;
@@ -44,18 +40,24 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1079px) {
   .cover__link {
+    height: 640px;
     margin-top: 60px;
+    min-height: 640px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__link {
+    height: 480px;
     margin-top: 90px;
+    min-height: 480px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__link {
     margin-top: 66px;
+    min-height: 200px;
+    gap: 16px;
   }
 }

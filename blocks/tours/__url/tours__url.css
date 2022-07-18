@@ -1,8 +1,12 @@
 .tours__url {
     text-transform: uppercase;
     opacity: 0.8;
+    font-style: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    margin-top: 0;
 }
-
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .tours__url {

@@ -1,11 +1,9 @@
 .footer__links {
   display: flex;
-
   max-width: 1184px;
   margin-top: 0;
   align-items: center;
 }
-
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__links {

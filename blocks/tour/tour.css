@@ -1,36 +1,31 @@
 .tour {
-    display: flex;
     flex-wrap: wrap;
-    margin: 12px auto 0 auto;
+    margin: 0 auto;
+    margin-top: 92px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .tour {
         grid-template-columns: 440px 1fr;
-        padding-right: 38px;
-       
-        padding-left: 48px;
         gap: 32px;
+        margin-top: 80px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .tour {
         grid-template-columns: 340px 1fr;
-        padding-left: 25px;
-        padding-right: 25px;
         gap: 28px;
+        margin-top: 88px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .tour {
-        margin-top: 64px;
         padding-left: 0;
         gap: 0;
-        grid-template-columns: 280px 1fr;
-        padding-right: 0;
-
-
+        grid-template-columns: 288px 1fr;
+        margin-top: 64px;
+        min-width: 100%;
     }
 }
