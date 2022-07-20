@@ -4,8 +4,7 @@
   color: white;
   font-size: 18px;
   line-height: 22px;
-  position: relative;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
 }
 

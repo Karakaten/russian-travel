@@ -6,8 +6,7 @@
   color: white;
   font-size: 72px;
   line-height: 76px;
-  position: relative;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
 }
 
